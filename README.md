@@ -52,13 +52,11 @@ Each SQL file includes:
 ## Example
 
 ```sql
--- Problem: Data Science Skills
+-- Task: Find candidates who have all three required skills: Python, Tableau, and PostgreSQL.
+-- Return the candidate IDs for candidates who possess each of these skills.
 -- Table: candidates
 -- Columns: candidate_id, skill
---
--- Task:
--- Find candidates who have Python, Tableau,
--- and PostgreSQL skills.
+
 
 SELECT candidate_id
 FROM candidates
