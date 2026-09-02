@@ -5,5 +5,6 @@
 -- Columns: customer_id: integer, customer_name: string, gender: string, age: integer, zip_code: integer, city: string, state: string
 
 
-SELECT * FROM customers
+SELECT * 
+FROM customers
 WHERE customer_name LIKE '_ee%';
